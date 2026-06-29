@@ -1,0 +1,10 @@
+Proyecto: Campaña de marketing digital para lanzamiento de producto
+Cliente: Empresa ABC
+Contacto: Laura García, Directora de Marketing
+Email: laura.garcia@abc.com
+Duración: 3 meses
+Coste: 50000 €
+Resultados:
+- Aumento del tráfico web en un 30%
+- Incremento de ventas en un 20%
+ROI estimado: 150%

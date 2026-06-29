@@ -1,6 +1,7 @@
 from llama_index.llms.openrouter import OpenRouter
 from llama_index.core import StorageContext, load_index_from_storage
 from llama_index.embeddings.openai import OpenAIEmbedding
+from llama_index.core.evaluation import FaithfulnessEvaluator
 from llama_index.core import Settings
 from config import API_KEY
 
@@ -19,5 +20,10 @@ llm = OpenRouter(
     model="openai/gpt-4o-mini",
 )
 query_engine = index.as_query_engine(llm=llm)
-response = query_engine.query("¿De qué trata el informe?")
+response = query_engine.query(input("Formula tu pregunta: "))
 print(response)
+
+# Evaluación de la respuesta
+evaluator = FaithfulnessEvaluator(llm=llm)
+eval_result = evaluator.evaluate_response(response=response)
+print("Resultado fiel a las fuentes: ", str(eval_result.passing))

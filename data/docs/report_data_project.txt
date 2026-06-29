@@ -1,0 +1,10 @@
+Proyecto: Análisis de datos para optimización de procesos
+Cliente: Empresa DEF
+Contacto: María López, Gerente de Operaciones
+Email: maria.lopez@def.es
+Duración: 4 meses
+Coste: 80000 €
+Resultados:
+- Identificación de cuellos de botella en la cadena de producción
+- Propuesta de soluciones para mejorar la eficiencia
+ROI estimado: 200%

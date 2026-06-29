@@ -1,0 +1,14 @@
+Proyecto: Implementación de IA para atención al cliente
+
+Cliente: Empresa XYZ
+Contacto: Juan Pérez, Director de Atención al Cliente
+Email: juan.perez@xyz.com
+Duración: 6 meses
+Coste: 120000 €
+
+Resultados:
+- Reducción del tiempo de respuesta en 40%
+- Incremento de satisfacción del cliente
+- Mejora en la eficiencia del equipo de soporte
+
+ROI estimado: 180%
